@@ -851,6 +851,9 @@ a.Home {
 .category-hero, .article-hero {
   height: 100px;
   padding: 0 20px;
+  background-image: url($homepage_background_image);
+  background-position: center top;
+  background-size: cover;
   text-align: center;
   width: 100%;
   border-top: 1px solid #f1f1f1;
