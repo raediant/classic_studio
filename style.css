@@ -846,6 +846,7 @@ a.Home {
   padding: 0 20px;
   text-align: center;
   width: 100%;
+  border-top: 1px solid #f1f1f1;
 }
 
 .category-hero, .article-hero {
