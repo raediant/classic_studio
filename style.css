@@ -560,7 +560,7 @@ a.Home {
 
 .nav-wrapper a {
   border: 0;
-  color: $color_5; /* $color_4 */
+  color: $color_2; /* $color_4 */
   display: none;
   font-size: 14px;
   padding: 0 20px 0 0;
@@ -602,7 +602,7 @@ a.Home {
 
 .nav-wrapper a:hover, .nav-wrapper a:focus, .nav-wrapper a:active {
   background-color: transparent;
-  color: $color_4;
+  color: darken($color_2, 20%);
   text-decoration: underline;
 }
 
@@ -1211,6 +1211,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
+  margin-top: 16px;
 }
 
 .community,
