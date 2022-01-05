@@ -1,7 +1,7 @@
 {
   "name": "Classic Studio Theme",
   "author": "Zendesk with Firstup",
-  "version": "1.0.02",
+  "version": "1.0.03",
   "api_version": 1,
   "default_locale": "en-us",
   "settings": [
@@ -13,7 +13,7 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#301E6B"
+          "value": "#292933"
         },
         {
           "identifier": "color_2",
@@ -34,7 +34,7 @@
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#7450FA"
+          "value": "#61b7e2"
         },
         {
           "identifier": "visited_link_color",
