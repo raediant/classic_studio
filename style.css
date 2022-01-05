@@ -87,6 +87,7 @@ h3 {
   padding-top: 14px;
 }
 
+/* TODO: Update Color */
 h4 {
   font-size: 16px;
   color: #808080;
@@ -492,18 +493,18 @@ a.Home {
   border-left: 1px solid #424242;
   margin-left: 10px;
   padding-left: 10px;
-  color: black;
+  color: $color_3;
   font-weight: 500;
 }
 
 .header-link a {
-	color: black;
+	color: $color_3;
 }
 
 /***** Revised Gilroy Header *****/
 .hero-header {
-    font-size: 52px;
-    color: white;
+  font-size: 52px;
+  color: $color_2;
   font-weight: 300;
   font-family: $font_1;
   margin-bottom: 12px;
@@ -516,7 +517,7 @@ a.Home {
 }
 
 .subhead {
-	color: #cccccc;
+	color: $highlight_color;
 	font-family: $font_2;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -562,6 +563,7 @@ a.Home {
   width: auto;
 }
 
+/* TODO: Update Color */
 .nav-wrapper a.hc_button {
   min-width: 170px;
   font-size: 12px;
@@ -1025,7 +1027,7 @@ a.Home {
 }
 
 a {
-  color: #3498db;
+  color: $color_4;
 }
 
 /***** Homepage *****/
@@ -1092,7 +1094,7 @@ a {
 
 /* New Featured Banner */
 .feature-banner {
-  background-color: #f3f2f7;
+  background-color: $highlight_color;
   padding: 40px 0;
   margin-top: -40px;
   margin-bottom: 40px;
@@ -1200,11 +1202,11 @@ a {
 }
 
 .community-image {
-  min-height: 200px; /*300px*/
+  min-height: 250px; /*300px*/
   background-image: url($community_image);
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   max-width: 100%;
 }
 
@@ -1437,7 +1439,7 @@ a {
 }
 
 a {
-  color: #3498db;
+  color: $color_4;
 }
 
 .article-container {
@@ -1543,6 +1545,8 @@ a {
 .article-body ul {
   list-style-type: disc;
 }
+
+/* TODO: Update Color */
 
 .toc {
     border: 1px solid #e6e6e6;
