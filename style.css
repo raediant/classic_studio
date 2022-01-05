@@ -52,7 +52,7 @@ Firstup Brand Text Colors
 }
 
 body {
-  background-color: $color_5;
+  background-color: #436073; /* $color_5 */
   color: $color_3;
   font-family: $font_2;
   font-size: 15px;
@@ -65,6 +65,10 @@ body {
   body > main {
     min-height: 65vh;
   }
+}
+
+main {
+  background-color: $color_5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -556,14 +560,13 @@ a.Home {
 
 .nav-wrapper a {
   border: 0;
-  color: $color_4;
+  color: $color_5; /* $color_4 */
   display: none;
   font-size: 14px;
   padding: 0 20px 0 0;
   width: auto;
 }
 
-/* TODO: Update Color */
 .nav-wrapper a.hc_button {
   min-width: 170px;
   font-size: 12px;
@@ -576,15 +579,15 @@ a.Home {
   text-transform: uppercase;
   line-height: 1.2;
   box-shadow: none;
-  background-color: #b2d8eb;
-  color: #252525;
+  background-color: #6181a2; /* #b2d8eb; */
+  color: $color_2; /* #252525; */
   margin-right: 10px;
 }
 
 .nav-wrapper a.hc_button:hover, .nav-wrapper a.hc_button:active, .nav-wrapper a.hc_button:focus {
-    background-color: #639bb7;
-    color: #252525;
-  	text-decoration: none;
+  background-color: #819ab5; /* #639bb7 */
+  color: $color_2; /* #252525; */
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -995,9 +998,9 @@ a.Home {
 }
 
 .blocks-item:hover, .blocks-item:focus, .blocks-item:active {
-  border: 1px solid #f43673;
-	box-shadow: 0 0 0 1px #bd1746;
-  -webkit-box-shadow: 0 0 0 1px #bd1746;
+  border: 1px solid $accent_color; /* #f43673 */
+	box-shadow: 0 0 0 1px darken($accent_color, 20%); /* #bd1746 */
+  -webkit-box-shadow: 0 0 0 1px darken($accent_color, 20%); /* #bd1746 */
 }
 
 .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
@@ -1751,8 +1754,8 @@ a {
 }
 
 .article-unsubscribe:hover {
-  background-color: darken(#f43673, 20%);
-  border-color: darken(#f43673, 20%);
+  background-color: darken($accent_color, 20%);  /* #f43673 */
+  border-color: darken($accent_color, 20%);  /* #f43673 */
 }
 
 .sidenav-title {
@@ -1766,10 +1769,11 @@ a {
   font-weight: 300;
   margin-bottom: 10px;
   padding: 10px;
+  border-left: 5px solid $color_5;
 }
 
 .sidenav-item.current-article, .sidenav-item:hover {
-  border-left: 5px solid #eb4962;
+  border-color: $accent_color;
   text-decoration: none;
 }
 
