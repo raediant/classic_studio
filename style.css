@@ -576,15 +576,14 @@ a.Home {
 }
 
 .nav-wrapper a.hc_button {
-  min-width: 170px;
+  min-width: 120px;
   font-size: 12px;
   padding: 12px 24px;
   border-radius: 50px;
-  letter-spacing: 2px;
+  letter-spacing: .2px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   font-family: $font_2;
-  text-transform: uppercase;
   line-height: 1.2;
   box-shadow: none;
   background-color: #6181a2; /* #b2d8eb; */
