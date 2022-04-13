@@ -872,7 +872,7 @@ a.Home {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  max-width: 720px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
