@@ -4461,7 +4461,7 @@ code {
 
 @media (min-width: 768px) {
   .footer_spacer {
-    min-width: 50%;
+    min-width: 30%;
   }
 }
 
