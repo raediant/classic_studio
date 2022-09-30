@@ -1,6 +1,11 @@
 <footer class="footer">
   <div class="footer-inner">
     {{#link 'help_center'}}{{help_center.name}}{{/link}}
+    <a href="https://firstup.io/privacy-policy/">Privacy Policy</a> |
+    <a href="https://firstup.io/legal/">Legal</a> |
+    <a href="/hc/p/cookies">Cookie Settings</a>
+
+    <span class="footer_spacer"></span>
 
     <div class="footer-language-selector">
       {{#if alternative_locales}}
@@ -19,4 +24,8 @@
       {{/if}}
     </div>
   </div>
+
+  <div class="footer-inner">
+     <p style="font-size: 85%; vertical-align: baseline;">To report vulnerabilities within the platform, please contact us at: <a href="mailto:support@firstup.io">support@firstup.io</a></p>
+   </div>
 </footer>
